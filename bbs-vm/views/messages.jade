@@ -1,0 +1,28 @@
+script(src='/socket.io/socket.io.js')
+script(src='/scripts/socketsetup.js')
+h2 Messages
+table#messagetable
+	thead
+		tr
+			th User
+			th Message
+	tbody
+		each msg in messages
+			tr
+				td
+					| #{msg.user}
+				td
+					| #{msg.text}
+
+br
+br
+form
+	| Username:
+	br
+	input(type='text', name='user')#username
+	br
+	| Message:
+	br
+	textarea(name='text')#message
+	br
+	a(href='#')#newmessage.buttonstyle Post Message

@@ -1,0 +1,16 @@
+{
+    "name": "bbs"
+  , "version": "0.0.1"
+  , "private": true
+  , "engines": {
+        "node": ">=0.6.20"
+    }
+  , "dependencies": {
+      "express": "2.5.5"
+    , "connect": ">= 1.9.1"
+    , "jade": ">= 0.26.3"
+    , "nstore": "0.5.1"
+    , "socket.io": ">= 0.0.1"
+    , "node-uuid": ">=0.0.1"
+  }
+}

@@ -1,0 +1,21 @@
+#container {
+	font-family: verdana;
+	margin: 20px;
+	background-color: #eeeeee;
+	width: 600px;
+	padding: 50px;
+}
+
+#header {
+	background-color: orange;
+	color: #20209f;
+	padding: 10px 0px 10px 10px;
+}
+
+thead {
+	background-color: #dddddd;
+}
+
+td {
+	padding: 0px 10px 0px 10px;
+}
